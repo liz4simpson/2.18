@@ -21,11 +21,7 @@ def list(poezd):
     """
     # Проверить, что список работников не пуст.
     if poezd:
-<<<<<<< HEAD
-        # Заголовок таблицы.
-=======
          # Заголовок таблицы.
->>>>>>> develop
         line = "+-{}-+-{}-+-{}-+".format(
             "-" * 10,
             "-" * 20,
@@ -47,7 +43,7 @@ def list(poezd):
 
 
 def select_poezd(poezd, nom):
-    """
+     """
     Выбрать поезда с заданным номером.
     """
     rezult = []
@@ -173,7 +169,3 @@ def main(command_line=None):
 
 if __name__ == "__main__":
     main()
-<<<<<<< HEAD
-    
-=======
->>>>>>> develop
